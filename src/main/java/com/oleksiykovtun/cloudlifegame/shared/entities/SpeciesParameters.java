@@ -3,12 +3,14 @@ package com.oleksiykovtun.cloudlifegame.shared.entities;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
 /**
  * The parameters of a species in the Game of Life
  */
 @Entity
+@XmlRootElement
 public class SpeciesParameters implements Serializable {
 
     private static int counter = 0;

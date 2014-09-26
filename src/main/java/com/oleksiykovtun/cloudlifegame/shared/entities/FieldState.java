@@ -1,10 +1,12 @@
 package com.oleksiykovtun.cloudlifegame.shared.entities;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
 /**
  * The layout of the game field in a moment of time
  */
+@XmlRootElement
 public class FieldState implements Serializable {
 
     private double time;

@@ -1,0 +1,7 @@
+<!DOCTYPE StorageSerialization PUBLIC "-//seanchenxi.com//DTD Storage Serialization 1.0//EN"
+        "http://gwt-storage.googlecode.com/git/src/main/resources/storage-serialization.dtd">
+
+<StorageSerialization>
+    <!-- Classes to persist by GWT -->
+    <class>com.oleksiykovtun.cloudlifegame.shared.entities.SpeciesParameters</class>
+</StorageSerialization>
